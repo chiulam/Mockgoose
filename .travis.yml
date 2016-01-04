@@ -2,6 +2,7 @@ sudo: false
 before_install:
   - npm install -g npm
   - npm update -g npm
+  - locale
 language: node_js
 node_js:
   - "4.2.3"
